@@ -59,7 +59,7 @@
 #    define UDRIEn UDRIE
 #    define USARTn_UDRE_vect USART_UDRE_vect
 #    define USARTn_RX_vect USART_RX_vect
-#elif defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__)
+#elif defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328PB__)
 #    define UDRn UDR0
 #    define UBRRnL UBRR0L
 #    define UCSRnA UCSR0A

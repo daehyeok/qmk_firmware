@@ -27,7 +27,7 @@ typedef int16_t spi_status_t;
 #    define SPI_SS_PIN B0
 #elif defined(__AVR_ATmega32A__)
 #    define SPI_SS_PIN B4
-#elif defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328__)
+#elif defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328__) || defined(__AVR_ATmega328PB__)
 #    define SPI_SS_PIN B2
 #endif
 

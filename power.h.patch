@@ -1,0 +1,10 @@
+--- power_ori	2021-08-11 19:18:44.000000000 -0700
++++ power.h	2021-08-11 19:13:02.000000000 -0700
+@@ -1360,6 +1360,7 @@
+ || defined(__AVR_ATmega3250PA__) \
+ || defined(__AVR_ATmega328__) \
+ || defined(__AVR_ATmega328P__) \
++|| defined(__AVR_ATmega328PB__) \
+ || defined(__AVR_ATmega329__) \
+ || defined(__AVR_ATmega329A__) \
+ || defined(__AVR_ATmega329P__) \

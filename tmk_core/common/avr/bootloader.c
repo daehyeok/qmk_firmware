@@ -247,7 +247,7 @@ __attribute__((weak)) void bootloader_jump(void) {
 
 #else  // Assume remaining boards are DFU, even if the flag isn't set
 
-#    if !(defined(__AVR_ATmega32A__) || defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328__) || defined(__AVR_ATtiny85__))  // no USB - maybe BOOTLOADER_BOOTLOADHID instead though?
+#    if !(defined(__AVR_ATmega32A__) || defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328PB__) || defined(__AVR_ATmega328__) || defined(__AVR_ATtiny85__))  // no USB - maybe BOOTLOADER_BOOTLOADHID instead though?
     UDCON  = 1;
     USBCON = (1 << FRZCLK);  // disable USB
     UCSR1B = 0;

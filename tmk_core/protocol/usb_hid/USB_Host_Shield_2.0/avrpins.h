@@ -518,7 +518,7 @@ public:
 
 // "Mega" pin numbers
 
-#elif defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__)
+#elif defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328PB__)
 // "Classic" Arduino pin numbers
 
 #define P0  Pd0
